@@ -1,8 +1,8 @@
-# 🪐 Simulation numérique des anneaux de Saturne
+# Simulation numérique des anneaux de Saturne
 
 Ce projet simule le mouvement d’astéroïdes gravitant autour de Saturne, avec ou sans l’influence d’un satellite perturbateur. Il a été réalisé dans le cadre d’un cours de **méthodes numériques** à l’EIDD (2024–2025).
 
-## 🚀 Objectifs
+## Objectifs
 
 - Simuler les trajectoires d’astéroïdes en orbite autour de Saturne.
 - Comparer différentes méthodes numériques d’intégration : Runge-Kutta 4 et Euler.
@@ -11,7 +11,7 @@ Ce projet simule le mouvement d’astéroïdes gravitant autour de Saturne, avec
 
 ---
 
-## 📁 Fichiers du projet
+## Fichiers du projet
 
 | Fichier C                            | Description |
 |-------------------------------------|-------------|
@@ -24,7 +24,7 @@ Ce projet simule le mouvement d’astéroïdes gravitant autour de Saturne, avec
 
 ---
 
-## ⚙️ Compilation et exécution
+## Compilation et exécution
 
 Compiler un fichier :
 ```bash
