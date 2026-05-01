@@ -100,8 +100,8 @@ int main(void)  {
 	
 	for (int i = 0; i < N; i++) {
 		fprintf(fichier, "%lf %lf\n", sat_pos.x, sat_pos.y);
-        for (int j = 0; i < ASTE; j++) {
-            fprintf(fichier, "%lf %lf\n", ast_pos[i].x, ast_pos[i].y);
+	        for (int j = 0; j < ASTE; j++) {
+	            fprintf(fichier, "%lf %lf\n", ast_pos[j].x, ast_pos[j].y);
             RK4(&ast_pos[j], &ast_vit[j], sat_pos, DT, 1);
         }
 		RK4(&sat_pos, &sat_vit, sat_pos, DT, 0);
